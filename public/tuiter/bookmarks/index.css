@@ -1,0 +1,134 @@
+
+body{
+    margin-top: 0px;
+}
+
+.wd-title{
+    color: white;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.wd-user-handle{
+    color:lightgrey;
+    font-size: 13px;
+    padding-bottom: 12px;
+    margin-bottom: 0px;
+}
+
+.wd-head-section{
+    padding-left: 16px;
+    padding-top: 12px;
+    border-bottom: solid 1px rgb(47, 51, 54);
+}
+
+.wd-avatar-img{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    grid-area: img;
+}
+
+.wd-post-info{
+    display: inline-block;
+    margin-left: 12px;
+    grid-area: main;
+}
+
+.wd-marked-post{
+    padding-top:12px;
+    padding-top:12px;
+    display: grid;
+    grid-template-columns: 48px auto;
+    grid-template-rows: 100%;
+    grid-template-areas: "img main";
+    padding-bottom: 12px;
+    border-bottom: solid 1px rgb(47, 51, 54);
+}
+
+p{
+    margin:0px;
+}
+
+.wd-content{
+    max-width: 506px;
+}
+
+.wd-detail-container{
+    padding:12px;
+    border-style: solid;
+    border-top-style: hidden;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius:30px;
+    border-width: 1px;
+    margin: 0px;
+    position: relative;
+}
+
+.wd-detail{
+    color:white;
+    font-size: 15px;
+
+    margin-right:16px;
+    margin-bottom: 12px;
+}
+
+.wd-detail-title{
+    font-weight: bold;
+}
+
+.wd-detail-body{
+    color: lightgray;
+    font-size:15px;
+}
+
+.wd-large-img-container{
+    margin-bottom: 0px;
+    position: relative;
+    width: 504px;
+    height:264px;
+    border-bottom: solid 1px rgb(47, 51, 54);
+}
+
+.wd-large-img{
+    width: 504px;
+    height:264px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.wd-author-name{
+    color:white;
+    font-weight:bold;
+    position: relative;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.wd-user-handle-1{
+    font-size: 15px;
+    color:lightgray;
+    display: inline-block;
+}
+
+.wd-icons{
+    width:100%;
+    margin-top: 12px;
+}
+
+.wd-icon{
+    color: lightgray;
+    text-decoration: none;
+}
+
+.wd-icon-selected{
+    color: red;
+    text-decoration: none;
+}
+
+.wd-text-icon{
+    display: inline-block;
+    margin-left: 12px;
+}
+

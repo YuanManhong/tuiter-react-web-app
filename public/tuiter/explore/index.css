@@ -1,0 +1,147 @@
+
+
+.wd-font{
+    font-family: sans-serif;
+}
+
+/*.wd-container{
+    display: grid;
+    grid-template-columns: 3.5% 96.5%;
+    grid-template-rows: 100%;
+    grid-template-areas: "sidebar main";
+}*/
+
+
+.wd-main-content{
+/*    border-style: solid;
+    border-left-color:rgb(47, 51, 54);
+    border-right-color:rgb(47, 51, 54);
+
+    float: right;*/
+   /* grid-area: main;*/
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+}
+
+.wd-search-input{
+    background-color: darkgray;
+    color: white;
+    border-radius: 30px;
+    height: 30px;
+    width: 85%;
+    margin-top: 3px;
+}
+
+#settings{
+    margin-right:12px;
+    float:right;
+    color:rgb(29,161,242);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.wd-guide-bar{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.wd-guide-bar-item-container{
+    width:100%;
+}
+
+.wd-guide-bar-item{
+    color: rgb(110, 118, 125);
+    text-decoration: none;
+    float: left;
+    font-weight: bold;
+    padding: 16px;
+    font-size: 15px;
+}
+
+.wd-guide-bar-highlighted-item{
+    border-bottom-color: rgb(29,161,242);
+    border-bottom-style: solid;
+    color:rgb(29,161,242);
+}
+
+.wd-suggesting-posts{
+   /* display: grid;
+    grid-template-columns: 85% 15%;
+    grid-template-areas: "content other";*/
+}
+
+.wd-post-content{
+
+    display: inline-block;
+    position: relative;
+    height:120px;
+
+}
+
+.wd-post-other{
+    display: inline-block;
+    position: relative;
+    float:right;
+    margin-right: 16px;
+    margin-top: 11px;
+
+}
+
+.wd-post{
+    border-bottom-style: solid;
+    height: auto;
+}
+
+.wd-post-topic,.wd-number-of-tuits{
+    font-size:13px;
+    color:rgb(110, 118, 125);
+
+}
+
+.wd-post-title{
+    font-size: 15px;
+    color:white;
+    font-weight: bold;
+}
+
+.wd-post-author{
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+
+.wd-post-img{
+    border-radius:30px;
+    width: 100px;
+    height:100px;
+}
+
+.wd-padding-left{
+    padding-left: 16px;
+}
+
+.wd-border{
+    border-color:rgb(47, 51, 54);
+}
+
+::placeholder{
+    color: white;
+}
+
+.wd-background-black{
+    background-color: black;
+}
+
+.wd-background-dark-gray{
+    background-color: darkgray;
+}
+
+
+
+/*.wd-border{*/
+/*    position: absolute;*/
+/*    left:16px;*/
+/*    border-color: #61dafb;*/
+/*    width:80%;*/
+/*    float: left;*/
+/*}*/
