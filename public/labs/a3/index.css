@@ -323,6 +323,13 @@ p#id-selector-2 {
     border-style: solid;
 }
 
+.flex-container-origin-1{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+}
+
 
 .flex-container {
     border-width: 5px;
@@ -388,6 +395,10 @@ p#id-selector-2 {
     flex-basis: 100%;
 }
 
+
+.media-body, .media-body-s{
+    padding: 3px;
+}
 
 @media (min-width: 0px)
     and (max-width: 600px) {
