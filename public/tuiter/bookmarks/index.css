@@ -7,6 +7,7 @@ body{
     color: white;
     font-size: 20px;
     margin-top: 0px;
+    font-weight: bold;
 }
 
 .wd-user-handle{
@@ -51,12 +52,11 @@ p{
     margin:0px;
 }
 
-.wd-content{
+/*.wd-content{
     max-width: 506px;
-}
+}*/
 
 .wd-detail-container{
-    padding:12px;
     border-style: solid;
     border-top-style: hidden;
     border-bottom-left-radius: 30px;
@@ -64,23 +64,28 @@ p{
     border-width: 1px;
     margin: 0px;
     position: relative;
+    width:504px;
 }
 
 .wd-detail{
     color:white;
     font-size: 15px;
-
+    max-width: 506px;
     margin-right:16px;
     margin-bottom: 12px;
 }
 
 .wd-detail-title{
     font-weight: bold;
+    padding:12px;
 }
 
 .wd-detail-body{
     color: lightgray;
     font-size:15px;
+    padding-left:12px;
+    padding-right:12px;
+    padding-bottom: 12px;
 }
 
 .wd-large-img-container{
@@ -98,6 +103,7 @@ p{
     border-top-right-radius: 30px;
 }
 
+
 .wd-author-name{
     color:white;
     font-weight:bold;
@@ -110,6 +116,20 @@ p{
     font-size: 15px;
     color:lightgray;
     display: inline-block;
+}
+
+.wd-bookmarks-other-content-main{
+    float:right;
+    margin-right: 16px;
+    text-decoration: none;
+    color:rgb(29,161,242);
+}
+
+.wd-bookmarks-other-content{
+    float:right;
+    margin-right: 16px;
+    text-decoration: none;
+    color: rgb(110, 118, 125);
 }
 
 .wd-icons{
