@@ -1,0 +1,203 @@
+.glassPosition{
+    left: 10px;
+    bottom: 10px;
+}
+
+.list-group-item{
+    border-style: none;
+}
+
+.fa-t{
+    color: #00acee;
+    font-size: 23px;
+}
+
+.navigationBar{
+    padding-right: 30px;
+}
+
+.list-group-item.active{
+    background-color: white;
+    color: #212529;
+    font-weight: bold;
+}
+
+.list-group .list-group-item .col-9{
+    margin-left: 10px;
+}
+
+.btn-primary.tuitBtn{
+    background-color:#00acee;
+    border-style: none;
+    font-weight: bold;
+}
+
+.main-content{
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.searchBar{
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.searchBarInput{
+    background-color: #f2f2f2;
+    border-style: none;
+}
+
+.navTabs{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.activeTab{
+    border-bottom-style: solid;
+    border-bottom-color: #00acee;
+    border-bottom-width: 3px;
+    margin-bottom: 0px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.activeTabLink{
+    padding-bottom: 3px;
+}
+
+.unActiveTab{
+    color: dimgray;
+}
+
+/* limit border length
+  .nav-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-item .active:before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 56%;
+    border-bottom: 3px solid #00acee;
+    position: absolute;
+    bottom: 0;
+    left: 22%;
+}*/
+
+.nav{
+    justify-content:  space-between;
+}
+
+.imgTextS{
+    margin-bottom: 0px;
+    margin-left:15px;
+}
+
+.imgTextL{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.contentContainer{
+    margin-top: 3px;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: lightgrey
+}
+
+.threeDots{
+    text-decoration: none;
+    color: gray;
+    font-size: 30px;
+    float: right;
+}
+
+
+.fa-arrow-up-right-from-square{
+    font-size: 11px;
+}
+
+.innerText{
+    color: #00acee;
+}
+
+.followPad{
+    background-color: #f2f2f2;
+    padding-left: 16px;
+}
+
+
+.list-group-item:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.list-group-item:last-child{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.followBtn{
+    padding-right: 16px;
+}
+
+.followTitle{
+    font-size: 20px;
+}
+
+.blue-icon{
+    color: #00acee;
+}
+
+.gold-icon{
+    color:goldenrod;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color:white;
+    background-color: #282c34;
+}
+
+.showMore{
+    color: #00acee;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.whoToFollowContainer{
+    padding-left: 30px;
+}
+
+.d-flex.firstP{
+    justify-content: left;
+    margin-top:25px;
+}
+
+.d-flex.secondP{
+    justify-content: left;
+}
+
+.rightMessage{
+    color: gray;
+    padding-left: 16px;
+    padding-right:16px;
+}
+
+.pd{
+    padding-left: 10px;
+}
