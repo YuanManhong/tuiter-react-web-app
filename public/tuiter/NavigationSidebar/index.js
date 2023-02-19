@@ -15,7 +15,7 @@ function NavigationSidebar(highlight = 'Home') {
     return (`
         <div class="list-group mb-2">
             <a class="list-group-item" href="/tuiter-react-web-app/public">
-                <i class="fab fa-twitter"></i></a>
+                <i class="fa-solid fa-t"></i></a>
             </a>
             ${
                 sections.map(section =>
