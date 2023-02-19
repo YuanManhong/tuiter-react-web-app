@@ -1,0 +1,6 @@
+.two-line-truncate{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* Set the maximum number of lines to be displayed */
+    overflow: hidden;
+}
