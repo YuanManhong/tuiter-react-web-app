@@ -1,0 +1,21 @@
+[
+  {
+    "_id": 123,
+    "username": "NASA",
+    "handle": "NASA",
+    "avatarIcon": "NASA.png"
+  },
+  {
+    "_id": 234,
+    "username": "Tesla",
+    "handle": "tesla",
+    "avatarIcon": "tesla.jpeg"
+  },
+  {
+    "_id": 345,
+    "username": "SpaceX",
+    "handle": "SpaceX",
+    "avatarIcon": "spacex.png"
+  }
+
+]
