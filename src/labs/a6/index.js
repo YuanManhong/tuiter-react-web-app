@@ -9,7 +9,7 @@ import TodoList from "./todo/todo-list";
 function Assignment6() {
     return (
         <div>
-            {/*<Nav/>*/}
+            <Nav/>
             <h1>Assignment 6</h1>
             <TodoList/>
             <ConditionalOutput/>
