@@ -4,6 +4,7 @@ const WhoToFollowListItem = (
     {
         who = {username: 'NASA', handle: 'NASA', avatarIcon: 'NASA.png'}
     }
+
     ) => {
         return (
             <li className="list-group-item">
