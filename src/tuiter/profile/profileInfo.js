@@ -28,7 +28,7 @@ const ProfileInfo = (people) => {
             </div>
             <div>
                 <button
-                    onClick={<EditProfileComponent profile={}/>}
+                    onClick={<EditProfileComponent /*profile={}*//>}
                     className="rounded-5 btn-white mt-1 border-secondary btn float-end"
                 >
                     Edit Profile
