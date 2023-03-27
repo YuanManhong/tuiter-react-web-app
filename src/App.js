@@ -4,7 +4,7 @@ import HelloWorld from "./labs/a6/hello-world";
 import Tuiter from "./tuiter";
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
-import NewHomeComponent from "./tuiter/A7Home";
+import NewHomeComponent from "./tuiter/NewHome";
 
 function App() {
   return (

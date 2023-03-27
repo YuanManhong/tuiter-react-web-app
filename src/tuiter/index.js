@@ -13,7 +13,7 @@ import {Provider} from "react-redux";
 import whoReducer from "./reducers/who-reducer";
 import tuitsReducer from "./tuits/tuits-reducer";
 import {configureStore} from "@reduxjs/toolkit";
-import NewHomeComponent from "./A7Home"
+import NewHomeComponent from "./NewHome"
 import ProfileComponent from "./profile";
 import EditProfileComponent from "./profile/editProfile";
 
