@@ -1,0 +1,11 @@
+.profilePicture{
+    width: 20%; /* Adjust the width and height according to the desired profile picture size */
+    height: auto;
+    bottom: -5%; /* Half of the width/height, so the image overlaps halfway */
+    left: 5%;
+}
+
+.backgroundPic{
+    width: 100%;
+    height: auto;
+}
