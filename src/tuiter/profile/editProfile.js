@@ -21,7 +21,7 @@ const EditProfile = (profile) => {
             <h2>Edit Profile</h2>
             <form onSubmit={handleSave}>
                 <label>Name</label>
-                <input type="text" value={} onChange={(e) => setName(e.target.value)} />
+                <input type="text"  onChange={(e) => setName(e.target.value)} />
 
                 <label>Bio</label>
                 <textarea value={bio} onChange={(e) => setBio(e.target.value)} />
