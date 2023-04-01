@@ -16,7 +16,9 @@ const TuitsItem = (post = {
         "retuits": 432,
         "likes": 2345,
         "handle": "@Tesla",
-        "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+        "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars",
+        "disliked": false,
+        "dislikes":123
 }) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
@@ -46,7 +48,7 @@ const TuitsItem = (post = {
                     <div>
                         <p>{post.tuit}</p>
                     </div>
-                    <TuitStats post={post}/>
+                    <TuitStats key={post._id} post={post}/>
                 </div>
             </div>
         </div>
