@@ -1,13 +1,26 @@
 import React from "react";
 import TuitStats from "./tuitStats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "../tuits/tuits-reducer";
+/*import {deleteTuit} from "../tuits/tuits-reducer";*/
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
-
-const PostItem = ({post}) => {
+const TuitsItem = (post = {
+        "_id": 123,
+        "topic": "Tesla",
+        "userName": "Tesla",
+        "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
+        "time": "2h",
+        "image": "tesla.jpeg",
+        "liked": true,
+        "replies": 123,
+        "retuits": 432,
+        "likes": 2345,
+        "handle": "@Tesla",
+        "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     return (
@@ -40,4 +53,4 @@ const PostItem = ({post}) => {
 
     );
 };
-export default PostItem;
+export default TuitsItem;
