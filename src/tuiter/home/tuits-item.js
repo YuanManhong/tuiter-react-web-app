@@ -4,22 +4,7 @@ import {useDispatch} from "react-redux";
 /*import {deleteTuit} from "../tuits/tuits-reducer";*/
 import {deleteTuitThunk} from "../../services/tuits-thunks";
 
-const TuitsItem = (post = {
-        "_id": 123,
-        "topic": "Tesla",
-        "userName": "Tesla",
-        "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
-        "time": "2h",
-        "image": "tesla.jpeg",
-        "liked": true,
-        "replies": 123,
-        "retuits": 432,
-        "likes": 2345,
-        "handle": "@Tesla",
-        "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars",
-        "disliked": false,
-        "dislikes":123
-}) => {
+const TuitsItem = ({post}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
         dispatch(deleteTuitThunk(id));
@@ -35,7 +20,7 @@ const TuitsItem = (post = {
                     <div className="row">
                         <div className="col-11">
                             <div className="fw-bold">
-                                {post.userName} <small> </small>
+                                {post.username} <small> </small>
                                 <i className="bi bi-check-circle-fill text-primary"></i>
                                 <small className="text-muted fw-normal"> {post.handle} · {post.time}</small>
                             </div>
