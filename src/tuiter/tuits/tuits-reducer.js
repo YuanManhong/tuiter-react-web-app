@@ -23,14 +23,24 @@ const tuitsSlice = createSlice({
     initialState: tuits,
     reducers: {
         updateLikesCount(state, action) {
-            const {postId, isLiked} = action.payload;
+            /*const {postId, isLiked} = action.payload;
             const postIndex = state.findIndex((post) => post.id === postId);
 
             if (postIndex >= 0) {
                 state[postIndex].likes += isLiked ? 1 : -1;
+            }*/
+            const index = state
+                .findIndex(tuit =>
+                    tuit._id === action.payload._id);
+            state[index].likes = action.payload.likes;
+            if (state[index].liked) {
+                state[index].liked = false;
+                state[index].likes = state[index].likes - 1;
+            }else{
+                state[index].liked = true;
+                state[index].likes = state[index].likes + 1;
             }
         },
-
         createTuit(state, action) {
             state.unshift({
                 ...action.payload,

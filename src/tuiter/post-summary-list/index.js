@@ -5,6 +5,7 @@ import {useSelector} from "react-redux";
 
 const PostSummaryList = () => {
     const postsArray = useSelector(state => state.tuits)
+    console.log(postsArray)
     return (
         <ul className="list-group">
             {

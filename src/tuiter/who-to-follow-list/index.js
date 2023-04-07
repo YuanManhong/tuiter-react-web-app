@@ -20,7 +20,7 @@ const WhoToFollowList = () => {
                 whoArray.map((who) =>
                         <li className="list-group-item"
                             key={who._id}>
-                            <div className="row">
+                            {/*<div className="row">
                                 <div className="col-2">
                                     <img className="rounded-circle" height={48} src={`/images/${who.avatarIcon}`}/>
                                 </div>
@@ -31,7 +31,11 @@ const WhoToFollowList = () => {
                                 <div className="col-2">
                                     <button className="btn btn-primary rounded-pill float-end">Follow</button>
                                 </div>
-                            </div>
+                            </div>*/}
+                            <WhoToFollowListItem
+                                username={who.username}
+                                handle={who.handle}
+                                avatarIcon={who.avatarIcon}/>
                         </li>
 
                     /*<WhoToFollowListItem

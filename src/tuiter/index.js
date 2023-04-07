@@ -8,17 +8,20 @@ import PostSummaryItem from "./post-summary-list/post-summary-item";
 import PostSummaryList from "./post-summary-list";
 import ExploreComponent from "./explore";
 import {Routes, Route} from "react-router";
-import HomeComponent from "./home";
 import {Provider} from "react-redux";
 import whoReducer from "./reducers/who-reducer";
 import tuitsReducer from "./tuits/tuits-reducer";
 import {configureStore} from "@reduxjs/toolkit";
-import NewHomeComponent from "./NewHome"
+import HomeComponent from "./home"
 import ProfileComponent from "./profile";
+import profileReducer from "./reducers/profileReducer";
 import EditProfileComponent from "./profile/editProfile";
-
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits:tuitsReducer}}
+    {reducer: {
+            who: whoReducer,
+            tuits:tuitsReducer,
+            profile: profileReducer
+    }}
 )
 
 function Tuiter() {
@@ -30,11 +33,10 @@ function Tuiter() {
                 </div>
                 <div className="col-10 col-md-10 col-lg-7 col-xl-6" style={{"position" : "relative"}}>
                     <Routes>
-                        <Route index element={<NewHomeComponent/>}/>
-                        <Route path="home"    element={<HomeComponent/>}/>
+                        <Route index element={<HomeComponent/>}/>
                         <Route path="explore" element={<ExploreComponent/>}/>
                         <Route path="profile" element={<ProfileComponent/>}/>
-                        <Route path="edit-profile"><EditProfileComponent/></Route>
+                        <Route path="edit-profile" element={<EditProfileComponent/>}/>
                     </Routes>
                     {/*<HomeComponent/>*/}
                 </div>

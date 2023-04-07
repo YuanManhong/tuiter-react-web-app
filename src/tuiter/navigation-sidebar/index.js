@@ -26,7 +26,9 @@ const NavigationSidebar = (
             <Link className="list-group-item"><i className="bi bi-envelope-fill text-dark"></i> Messages</Link>
             <Link className="list-group-item"><i className="bi bi-bookmarks-fill text-dark"></i> Bookmarks</Link>
             <Link className="list-group-item"><i className="bi bi-list-task text-dark"></i> Lists</Link>
-            <Link className={`list-group-item ${active === 'profile'?'active':''}`}><i className="bi bi-person-fill text-dark"></i> Profile</Link>
+            <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile'?'active':''}`}>
+                <i className="bi bi-person-fill text-dark"></i> Profile
+            </Link>
             <Link className="list-group-item"><i className="bi bi-three-dots text-dark"></i> More</Link>
 
         </div>

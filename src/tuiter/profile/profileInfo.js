@@ -2,7 +2,7 @@ import React from "react";
 import EditProfileComponent from "./editProfile";
 
 
-const ProfileInfo = (people) => {
+const ProfileInfo = ({people}) => {
     return(
         <>
             <div className="row">
